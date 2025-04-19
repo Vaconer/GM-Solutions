@@ -1308,7 +1308,7 @@
   .content-left-fourth { max-width: 60%; padding: 25px; padding-left: 60px; }
   .vertical-text-container { left: 10px; }
   .vertical-text-fourth { font-size: 3.5em; } /* Reduced size */
-  .image-right-fourth { width: 35%; }
+  .image-right-fourth { width: 30%; }
   .text-list-fourth li { font-size: 0.9em; }
  
   /* Fifth Section */
@@ -1425,7 +1425,7 @@
   .text-list-fourth li { padding-left: 0; text-align: left; font-size: 0.85em; margin-bottom: 15px; }
   /* .text-list-fourth li::before { display: none; } Optional: remove custom bullet space if needed */
   .cta-button-fourth { float: none; display: block; margin: 20px auto 0; width: 100%; max-width: 300px; padding: 15px; font-size: 0.85em; }
-  .image-right-fourth { order: 1; width: 70%; max-width: 300px; margin: 0 auto; }
+  .image-right-fourth { order: 1; width: 30%; max-width: 100px; margin: 0 auto; margin-left: -200px}
  
   /* Fifth Section */
   .hand-image-fifth { width: 250px; left: -40px; top: 0px; opacity: 0.6; }
