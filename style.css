@@ -19,7 +19,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url('img/bg.png');
+    background-image: url('img/BG.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -471,6 +471,7 @@
   text-transform: lowercase;
   white-space: nowrap;
   line-height: 1;
+  margin: -30px;
  }
  
  .text-list-fourth {
@@ -523,17 +524,16 @@
  }
  
  .image-right-fourth {
-    flex-shrink: 0;
-    width: 60%;
-    max-width: 600px;
-    position: relative;
-    align-self: center;
-  }
-  
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 600px;
+  align-self: flex-end; /* cola na parte de baixo da div flex container */
+}
+
  
  .image-right-fourth img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 600px;
   display: block;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -713,7 +713,7 @@
  /* --- Seventh Section --- */
  .seventh-section {
   background-color: #000000;
-  background-image: url('img/coroa.png');
+  background-image: url('img/money.jpg');
   background-repeat: no-repeat;
   background-position: 90% center;
   background-size: auto 85%;
@@ -1133,7 +1133,7 @@
  /* --- Tenth Section Styling --- */
  .tenth-section {
     background-color: #0a1014;
-    background-image: url('img/bg2.svg');
+    background-image: url('img/BG.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
